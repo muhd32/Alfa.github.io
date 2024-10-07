@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contact {
+    /* border: 2px solid red; */
+    background-color:rgb(188, 236, 186); 
+    /* background-image: linear-gradient(rgba(0, 0, 0.5,0.60),rgba(0, 0.5, 0,0.60)),url('AA\ Alfa\-10.jpg'); */
+
+}
+.contact h1 {
+    text-align: center;
+    color: red;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-size: 300%;
+    font-weight: bold;
+}
+.cont {
+ border: 2px solid green;
+ width: 35%;
+ margin-bottom: 3%;
+ margin-left: 100px;
+ padding-bottom: 2%;
+ padding-right: 50px;
+}
+.cont:hover{
+    background-color: white;
+}
+.cont h3 {
+    padding: 20px 40px 20px ;
+    font-size: 250%;
+    font-weight: bold;
+    color: red;
+
+}
+.cont p {
+    /* padding-left: 60px; */
+    color: green;
+    padding-left: 60px;
+    padding-bottom: 4px;
+    font-size: 150%;
+}
+.phone-icon {
+    display: flex;
+    margin-left: 40px;
+}
+.address {
+    border: 2px solid green;
+    width: 40%;
+    margin-left: 52%;
+    padding-bottom: 2%;
+    margin-bottom: 20px;
+
+}
+.address:hover{
+    background-color: white;
+}
+.address h3 {
+    padding: 20px 40px 20px;
+    font-size: 250%;
+    font-weight: bold;
+}
+.address p {
+    padding-left: 60px;
+    padding-bottom: 35px;
+    font-size: 150%;
+    color: red;
+}
+.feel-free h1 {
+    margin-bottom: -4%;
+    font-size: 250%;
+
+}
+.container {
+    padding: 3rem 2rem;
+    margin: 50px auto;
+    width: 40%;
+    /* background-color: aquamarine; */
+    ber-radius: 10px;
+    height: 40vh;
+    text-align: center;
+    margin-bottom: 9%;
+
+
+}
+.form label{
+    margin-bottom: 12px;
+    font-size: 200%;
+    padding-right: 55%;
+    color: green;
+
+    
+}
+.form input{
+    width:80%;
+    border: none;
+    height: 30px;
+    border: 1px solid grey;
+}
+.form textarea {
+    width: 80%;
+    
+}
+.btn button {
+    width: 30%;
+    margin-top: 3%;
+    height: 25px;
+    border: 1px solid  red;
+    background: transparent;
+
+}
+button:hover {
+    background-color: green;
+}
+.btn button a {
+    text-decoration: none;
+
+}
+.footer{
+    background-color:black ;
+    margin-top: -8%;
+    min-height: 30px;
+
+}
+.footer h4{
+    padding-bottom: 5%;
+    color: white;
+    text-align: center;
+    padding-top: 2rem;
+}
+.footer P{
+    color: white;
+    text-align: center;
+    padding-top: 3%;
+}
+.footer button{
+    align-content: center;
+    margin-left: 45%;
+    padding: 5px 10px ;
+    
+
+}
+.footer button a {
+    text-decoration: none;
+}
+button:hover{
+    color: red;
+}
